@@ -61,7 +61,7 @@
 +-----------------------------+
 | Magic        (4 字节)       | "AMLX"
 | Version      (1 字节)       | 0x01
-| GlobalFlags  (1 字节)       |
+| GlobalFlags  (1 字节)       | 0x00（v1未启用）
 | HeaderSize   (varint)       |
 +-----------------------------+
 | Header Section              |
