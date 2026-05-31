@@ -55,7 +55,7 @@ A **lossless**, **compact**, and **binary** lyric distribution format designed f
 +-----------------------------+
 | Magic        (4 bytes)      | "AMLX"
 | Version      (1 byte)       | 0x01
-| GlobalFlags  (1 byte)       |
+| GlobalFlags  (1 byte)       | 0x00 (not enabled in v1)
 | HeaderSize   (varint)       |
 +-----------------------------+
 | Header Section              |
